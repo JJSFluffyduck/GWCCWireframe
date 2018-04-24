@@ -150,7 +150,7 @@
         <object xsi:type="model:Placeholder" id="18" x="206" y="529" width="182" height="176" text="Whats on Event 2"/>
       </widgetChanges>
       <widgetChanges xsi:type="o:Insert" newIndex="4">
-        <object xsi:type="model:Placeholder" id="17" y="529" width="182" height="176" text="Whats on Event 1"/>
+        <object xsi:type="model:Placeholder" id="17" y="529" width="182" height="176" text="For Parents"/>
       </widgetChanges>
       <widgetChanges xsi:type="o:Insert" newIndex="4">
         <object xsi:type="model:VScrollbar" id="10" x="886" height="1112"/>
@@ -168,12 +168,12 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:Arrow" id="43" x="784" y="216" width="241" height="41" measuredWidth="241" measuredHeight="41"/>
-  <widgets xsi:type="model:Label" id="46" x="936" y="266" text="Broad shot of the children center" measuredWidth="215" measuredHeight="28">
+  <widgets xsi:type="model:Label" id="46" x="936" y="266" text="Broad shot of the children center" measuredWidth="223" measuredHeight="28">
     <font/>
   </widgets>
   <widgets xsi:type="model:Image" id="47" x="20" y="818" width="839" height="118" measuredWidth="839" measuredHeight="118"/>
   <widgets xsi:type="model:Arrow" id="48" x="805" y="870" width="204" height="35" measuredWidth="204" measuredHeight="35"/>
-  <widgets xsi:type="model:Label" id="49" x="1008" y="912" text="A rolling banner with children" measuredWidth="194" measuredHeight="28">
+  <widgets xsi:type="model:Label" id="49" x="1008" y="912" text="A rolling banner with children" measuredWidth="202" measuredHeight="28">
     <font/>
   </widgets>
   <widgets xsi:type="model:Image" id="53" x="10" y="14" width="118" height="49" text="Logo" measuredWidth="118" measuredHeight="49"/>
