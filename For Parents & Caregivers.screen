@@ -1,116 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Panel" id="1" width="905" height="50" measuredWidth="905" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
-  <widgets xsi:type="model:Label" id="3" x="15" y="10" text="Brand" measuredWidth="56" measuredHeight="33" layoutParams="anchor-left|anchor-middle" link="Index.screen">
-    <font size="18px"/>
-  </widgets>
-  <widgets xsi:type="model:TextField" id="4" x="682" y="5" width="145" text="~Search~" measuredWidth="145" measuredHeight="40" layoutParams="anchor-left|anchor-middle" skin="assets/Bootstrap/_text-input.svg">
+  <widgets xsi:type="model:Panel" id="1" x="136" y="4" width="737" height="50" measuredWidth="737" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
+  <widgets xsi:type="model:ButtonBar" id="8" x="439" y="7" width="105" height="46" text="Rooms {desc}" measuredWidth="105" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
     <font size="14px"/>
+    <items link="Rooms.screen" x="0" y="0" width="97" height="46" text="Rooms {desc}"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="5" x="828" y="8" height="34" text="Submit" measuredWidth="67" measuredHeight="34" layoutParams="anchor-left|anchor-middle">
+  <widgets xsi:type="model:ButtonBar" id="9" x="145" y="7" width="99" height="46" text="GWCC" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
     <font size="14px"/>
+    <items link="Index.screen" x="0" y="0" width="73" height="46" text="GWCC"/>
   </widgets>
-  <widgets xsi:type="model:ButtonBar" id="7" x="80" y="4" width="81" height="46" text="History, " measuredWidth="81" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" background="#ccc" skin="assets/Bootstrap/_pills.svg">
+  <widgets xsi:type="model:ButtonBar" id="10" x="583" y="7" width="99" height="46" text="About Us" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
     <font size="14px"/>
-    <items link="History.screen" x="0" y="0" width="78" height="46" text="History"/>
-    <items x="78" y="0" width="31" height="46"/>
+    <items link="About%20Us.screen" x="0" y="0" width="92" height="46" text="About Us"/>
   </widgets>
-  <widgets xsi:type="model:ButtonBar" id="8" x="160" y="2" width="105" height="46" text="Parents Page" measuredWidth="105" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" background="#ccc" skin="assets/Bootstrap/_pills.svg">
+  <widgets xsi:type="model:ButtonBar" id="12" x="716" y="7" width="99" height="46" text="Contact Us" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
     <font size="14px"/>
-    <items x="0" y="0" width="114" height="46" text="Parents Page"/>
+    <items link="Contact%20Us.screen" x="0" y="0" width="102" height="46" text="Contact Us"/>
   </widgets>
-  <widgets xsi:type="model:ButtonBar" id="9" x="272" y="2" width="99" height="46" text="Newsletter" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" background="#ccc" skin="assets/Bootstrap/_pills.svg">
-    <font size="14px"/>
-    <items link="Newsletter.screen" x="0" y="0" width="102" height="46" text="Newsletter"/>
-  </widgets>
-  <widgets xsi:type="model:ButtonBar" id="10" x="456" y="4" width="99" height="46" text="Career info" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" background="#ccc" skin="assets/Bootstrap/_pills.svg">
-    <font size="14px"/>
-    <items link="Careers.screen" x="0" y="0" width="104" height="46" text="Career info"/>
-  </widgets>
-  <widgets xsi:type="model:ButtonBar" id="11" x="375" y="3" width="82" height="46" text="Rooms" measuredWidth="82" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" background="#ccc" skin="assets/Bootstrap/_pills.svg">
-    <font size="14px"/>
-    <items link="Rooms.screen" x="0" y="0" width="77" height="46" text="Rooms"/>
-  </widgets>
-  <widgets xsi:type="model:ButtonBar" id="12" x="560" y="3" width="99" height="46" text="Contact info" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" background="#ccc" skin="assets/Bootstrap/_pills.svg">
-    <font size="14px"/>
-    <items link="Contact%20Information.screen" x="0" y="0" width="112" height="46" text="Contact info"/>
-  </widgets>
-  <widgets xsi:type="model:LinkBar" id="15" x="313" y="976" text="Home,Career Information,Site Map,About" measuredWidth="279" measuredHeight="23">
-    <font/>
-    <items x="0" y="0" width="36" height="23" text="Home"/>
-    <items x="54" y="0" width="103" height="23" text="Career Information"/>
-    <items x="175" y="0" width="49" height="23" text="Site Map"/>
-    <items x="242" y="0" width="36" height="23" text="About"/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="16" x="36" y="464" width="821" height="97" text="FAQs&#xD;&#xA;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="821" measuredHeight="97" foreground="#00f">
+  <widgets xsi:type="model:Text" id="16" x="36" y="536" width="821" height="97" text="FAQs&#xD;&#xA;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="821" measuredHeight="97" foreground="#00f">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Text" id="17" x="36" y="576" width="821" height="153" text="Whats ON&#xD;&#xA;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="821" measuredHeight="153" foreground="#a2c4c9">
+  <widgets xsi:type="model:Text" id="17" x="36" y="648" width="821" height="113" text="Whats ON&#xD;&#xA;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="821" measuredHeight="113" foreground="#a2c4c9">
     <font/>
   </widgets>
-  <widgets xsi:type="model:HSplitter" id="23" x="36" y="744" width="821" measuredWidth="821" measuredHeight="11"/>
-  <widgets xsi:type="model:TextField" id="24" x="400" y="800" text="Electronic Forms " measuredWidth="106" measuredHeight="23">
+  <widgets xsi:type="model:TextField" id="24" x="176" y="416" text="Electronic Forms " measuredWidth="106" measuredHeight="23">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="25" x="154" y="864" text="Notication of Change" measuredWidth="117" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+  <widgets xsi:type="model:Label" id="25" x="136" y="456" text="Notication of Change" measuredWidth="117" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="26" x="426" y="864" text="Leave Forms" measuredWidth="69" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+  <widgets xsi:type="model:Label" id="26" x="418" y="456" text="Leave Forms" measuredWidth="69" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="27" x="658" y="864" text="Medication form" measuredWidth="92" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+  <widgets xsi:type="model:Label" id="27" x="586" y="456" text="Medication form" measuredWidth="92" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="30" x="428" y="72" text="Polices" measuredWidth="49" measuredHeight="23">
+  <widgets xsi:type="model:TextField" id="30" x="176" y="80" text="Polices" measuredWidth="49" measuredHeight="23">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="31" x="112" y="368" text="Administration of ALL medications - over the counter and prescribed" measuredWidth="366" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+  <widgets xsi:type="model:Icon" id="43" x="176" y="183" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Label" id="44" x="215" y="179" text="Declaration of the " measuredWidth="103" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="32" x="304" y="127" width="52" text="Fees" measuredWidth="52" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+  <widgets xsi:type="model:Label" id="45" x="215" y="198" width="103" text="rights of the Child" measuredWidth="103" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="33" x="427" y="127" text="Late Fees" measuredWidth="51" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+  <widgets xsi:type="model:Label" id="47" x="475" y="187" text="Guiding Childrens" measuredWidth="101" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="34" x="408" y="208" text="Grievance Policy" measuredWidth="90" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+  <widgets xsi:type="model:Label" id="51" x="215" y="123" text="Privacy Policy Statment" measuredWidth="130" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="35" x="514" y="127" width="105" text="Child Protection" measuredWidth="105" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="36" x="629" y="127" text="Rights of the Child" measuredWidth="101" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Icon" id="43" x="180" y="208" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
-  <widgets xsi:type="model:Label" id="44" x="144" y="239" text="Declaration of the " measuredWidth="103" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="45" x="144" y="261" width="103" text="rights of the Child" measuredWidth="103" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Icon" id="46" x="314" y="208" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
-  <widgets xsi:type="model:Label" id="47" x="279" y="239" text="Guiding Childrens" measuredWidth="101" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="48" x="297" y="261" width="66" text="Behaviour" measuredWidth="66" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Icon" id="50" x="180" y="127" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
-  <widgets xsi:type="model:Label" id="51" x="156" y="158" text="Privacy Policy" measuredWidth="79" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="52" x="163" y="180" width="66" text="Statement" measuredWidth="66" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Icon" id="53" x="551" y="208" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
-  <widgets xsi:type="model:Label" id="54" x="529" y="239" text="Sick Children" measuredWidth="75" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="56" x="112" y="302" text="Guidelines for the implementation of the HALF FREE sick day " measuredWidth="326" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+  <widgets xsi:type="model:Label" id="54" x="477" y="306" text="Sick Children Policy" measuredWidth="110" measuredHeight="23">
     <font/>
   </widgets>
   <widgets xsi:type="model:VScrollbar" id="57" x="888" y="56" height="960" measuredWidth="17" measuredHeight="960"/>
+  <widgets xsi:type="model:Label" id="58" x="215" y="302" text="Guidelines for the implementation" measuredWidth="187" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="59" x="176" y="302" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Label" id="60" x="654" y="300" text="Administration of ALL medications" measuredWidth="190" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="61" x="654" y="315" text="over the counter and prescribed" measuredWidth="174" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="63" x="616" y="302" measuredWidth="32" measuredHeight="32" icon="indeterminate (large)"/>
+  <widgets xsi:type="model:Label" id="64" x="215" y="319" text="of the HALF FREE sick day" measuredWidth="142" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="65" x="616" y="119" measuredWidth="32" measuredHeight="32" icon="indeterminate (large)"/>
+  <widgets xsi:type="model:Icon" id="66" x="176" y="240" measuredWidth="32" measuredHeight="32" icon="indeterminate (large)"/>
+  <widgets xsi:type="model:Icon" id="67" x="437" y="302" measuredWidth="32" measuredHeight="32" icon="indeterminate (large)"/>
+  <widgets xsi:type="model:Icon" id="68" x="437" y="244" measuredWidth="32" measuredHeight="32" icon="indeterminate (large)"/>
+  <widgets xsi:type="model:Icon" id="69" x="437" y="183" measuredWidth="32" measuredHeight="32" icon="indeterminate (large)"/>
+  <widgets xsi:type="model:Icon" id="70" x="437" y="122" measuredWidth="32" measuredHeight="32" icon="indeterminate (large)"/>
+  <widgets xsi:type="model:Label" id="71" x="476" y="126" text="Fees" measuredWidth="29" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="72" x="479" y="248" text="Grievance Policy" measuredWidth="93" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="73" x="214" y="244" text="Child Protection Policy" measuredWidth="127" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="75" x="176" y="368" measuredWidth="32" measuredHeight="32" icon="indeterminate (large)"/>
+  <widgets xsi:type="model:Icon" id="76" x="616" y="187" measuredWidth="32" measuredHeight="32" icon="indeterminate (large)"/>
+  <widgets xsi:type="model:Icon" id="77" x="176" y="119" measuredWidth="32" measuredHeight="32" icon="indeterminate (large)"/>
+  <widgets xsi:type="model:Label" id="78" x="659" y="126" text="Late Fees" measuredWidth="54" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="79" x="659" y="195" text="Rights of the Child" measuredWidth="104" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="80" x="215" y="372" text="Extra Label" measuredWidth="62" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="81" x="616" y="368" measuredWidth="32" measuredHeight="32" icon="indeterminate (large)"/>
+  <widgets xsi:type="model:Label" id="82" x="655" y="372" text="Extra Label" measuredWidth="62" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="83" x="432" y="368" measuredWidth="32" measuredHeight="32" icon="indeterminate (large)"/>
+  <widgets xsi:type="model:Label" id="84" x="475" y="372" text="Extra Label" measuredWidth="62" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="85" x="486" y="201" text=" Behaviour" measuredWidth="62" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="106" x="6" y="4" width="118" height="49" text="Logo" measuredWidth="118" measuredHeight="49"/>
+  <widgets xsi:type="model:ButtonBar" id="108" x="245" y="6" height="46" text="Parents / Carers {desc}" measuredWidth="153" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" background="#ccc" skin="assets/Bootstrap/_pills.svg">
+    <font size="14px"/>
+    <items x="0" y="0" width="153" height="46" text="Parents / Carers {desc}"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="109" x="31" y="752" width="832" measuredWidth="832" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="110" x="39" y="774" text="General" measuredWidth="50" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="111" x="228" y="774" text="For Parents / Caregivers" measuredWidth="139" measuredHeight="23" link="">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="112" x="455" y="774" text="Rooms" measuredWidth="44" measuredHeight="23" link="Rooms.screen">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="113" x="682" y="774" text="Contact Us" measuredWidth="66" measuredHeight="23" link="Contact%20Us.screen">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="114" x="48" y="819" text="* Home" measuredWidth="47" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="115" x="48" y="846" text="* About us" measuredWidth="62" measuredHeight="23" link="About%20Us.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="116" x="44" y="873" text="* Careers" measuredWidth="53" measuredHeight="23" link="Careers.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="117" x="223" y="819" text="* What you need to know" measuredWidth="140" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="118" x="223" y="846" text="* What's on" measuredWidth="67" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="119" x="219" y="873" text="* Forms" measuredWidth="47" measuredHeight="23" link="">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="120" x="454" y="819" text="* Babies" measuredWidth="48" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="121" x="454" y="846" text="* Nursery" measuredWidth="55" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="122" x="450" y="873" text="* Junior Kindy" measuredWidth="79" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="123" x="453" y="900" text="* Kindy" measuredWidth="44" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="124" x="685" y="814" text="Phone: 08 8123 4567" measuredWidth="112" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="125" x="682" y="846" text="Email: test@gwcc.edu.au" measuredWidth="138" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="126" x="682" y="873" text="Fax: 08 8123 4567" measuredWidth="95" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="127" x="682" y="927" text="Adelaide SA 5000" measuredWidth="96" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="128" x="219" y="900" text="* Newsletter" measuredWidth="70" measuredHeight="23" link="Newsletter.screen">
+    <font/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
