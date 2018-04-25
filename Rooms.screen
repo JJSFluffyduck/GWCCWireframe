@@ -2,84 +2,107 @@
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Image" id="2" x="10" y="14" width="118" height="49" text="Logo" measuredWidth="118" measuredHeight="49"/>
   <widgets xsi:type="model:HLine" id="3" x="14" y="890" width="832" measuredWidth="832" measuredHeight="6"/>
-  <widgets xsi:type="model:Label" id="4" x="22" y="912" text="General" measuredWidth="50" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="4" x="22" y="912" text="General" measuredWidth="50" measuredHeight="24">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="5" x="211" y="912" text="For Parents / Caregivers" measuredWidth="139" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="5" x="211" y="912" text="For Parents / Caregivers" measuredWidth="143" measuredHeight="24">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="6" x="438" y="912" text="Rooms" measuredWidth="44" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="6" x="438" y="912" text="Rooms" measuredWidth="45" measuredHeight="24">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="7" x="665" y="912" text="Contact Us" measuredWidth="66" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="7" x="665" y="912" text="Contact Us" measuredWidth="68" measuredHeight="24">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="8" x="31" y="957" text="* Home" measuredWidth="47" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="8" x="31" y="957" text="* Home" measuredWidth="47" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="9" x="31" y="984" text="* About us" measuredWidth="62" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="9" x="31" y="984" text="* About us" measuredWidth="63" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="10" x="27" y="1011" text="* Careers" measuredWidth="53" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="10" x="27" y="1011" text="* Careers" measuredWidth="54" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="11" x="206" y="957" text="* What you need to know" measuredWidth="140" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="11" x="206" y="957" text="* What you need to know" measuredWidth="143" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="12" x="206" y="984" text="* What's on" measuredWidth="67" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="12" x="206" y="984" text="* What's on" measuredWidth="68" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="13" x="202" y="1011" text="* Forms" measuredWidth="47" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="13" x="202" y="1011" text="* Forms" measuredWidth="47" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="14" x="437" y="957" text="* Babies" measuredWidth="48" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="14" x="437" y="957" text="* Babies" measuredWidth="49" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="15" x="437" y="984" text="* Nursery" measuredWidth="55" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="15" x="437" y="984" text="* Nursery" measuredWidth="56" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="16" x="433" y="1011" text="* Junior Kindy" measuredWidth="79" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="16" x="433" y="1011" text="* Junior Kindy" measuredWidth="81" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="17" x="436" y="1038" text="* Kindy" measuredWidth="44" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="17" x="436" y="1038" text="* Kindy" measuredWidth="45" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="18" x="668" y="952" text="Phone: 08 8123 4567" measuredWidth="112" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="18" x="668" y="952" text="Phone: 08 8123 4567" measuredWidth="118" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="19" x="665" y="984" text="Email: test@gwcc.edu.au" measuredWidth="138" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="19" x="665" y="984" text="Email: test@gwcc.edu.au" measuredWidth="137" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="20" x="665" y="1011" text="Fax: 08 8123 4567" measuredWidth="95" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="20" x="665" y="1011" text="Fax: 08 8123 4567" measuredWidth="101" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="21" x="665" y="1065" text="Adelaide SA 5000" measuredWidth="96" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="21" x="665" y="1065" text="Adelaide SA 5000" measuredWidth="100" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="22" x="202" y="1038" text="* Newsletter" measuredWidth="70" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="22" x="202" y="1038" text="* Newsletter" measuredWidth="72" measuredHeight="24">
     <font/>
   </widgets>
   <widgets xsi:type="model:VScrollbar" id="23" x="872" y="14" height="1074" measuredWidth="17" measuredHeight="1074"/>
   <widgets xsi:type="model:Panel" id="24" x="136" y="11" width="737" height="50" measuredWidth="737" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
   <widgets xsi:type="model:ButtonBar" id="25" x="439" y="14" width="105" height="46" text="Rooms {desc}" measuredWidth="105" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" background="#ccc" skin="assets/Bootstrap/_pills.svg">
     <font size="14px"/>
-    <items x="0" y="0" width="97" height="46" text="Rooms {desc}"/>
+    <items x="0" y="0" width="95" height="46" text="Rooms {desc}"/>
   </widgets>
   <widgets xsi:type="model:ButtonBar" id="26" x="145" y="14" width="99" height="46" text="GWCC" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
     <font size="14px"/>
-    <items link="Newsletter.screen" x="0" y="0" width="73" height="46" text="GWCC"/>
+    <items link="Newsletter.screen" x="0" y="0" width="72" height="46" text="GWCC"/>
   </widgets>
   <widgets xsi:type="model:ButtonBar" id="27" x="583" y="14" width="99" height="46" text="About Us" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
     <font size="14px"/>
-    <items link="About%20Us.screen" x="0" y="0" width="92" height="46" text="About Us"/>
+    <items link="About%20Us.screen" x="0" y="0" width="91" height="46" text="About Us"/>
   </widgets>
   <widgets xsi:type="model:ButtonBar" id="28" x="716" y="14" width="99" height="46" text="Contact Us" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
     <font size="14px"/>
-    <items link="Contact%20Us.screen" x="0" y="0" width="102" height="46" text="Contact Us"/>
+    <items link="Contact%20Us.screen" x="0" y="0" width="101" height="46" text="Contact Us"/>
   </widgets>
-  <widgets xsi:type="model:ButtonBar" id="29" x="245" y="13" height="46" text="Parents / Carers {desc}" measuredWidth="153" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
+  <widgets xsi:type="model:ButtonBar" id="29" x="245" y="13" height="46" text="Parents / Carers {desc}" measuredWidth="151" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
     <font size="14px"/>
-    <items link="For%20Parents%20&amp;%20Caregivers.screen" x="0" y="0" width="153" height="46" text="Parents / Carers {desc}"/>
+    <items link="For%20Parents%20&amp;%20Caregivers.screen" x="0" y="0" width="151" height="46" text="Parents / Carers {desc}"/>
+  </widgets>
+  <widgets xsi:type="model:Accordion" id="1" x="40" y="160" width="762" height="705" text="Babies&#xA;Nursery&#xA;Junior Kindy&#xA;Kindy" measuredWidth="762" measuredHeight="705" selection="0">
+    <items x="0" y="2" width="762" height="26" text="Babies"/>
+    <items x="0" y="627" width="762" height="26" text="Nursery"/>
+    <items x="0" y="653" width="762" height="26" text="Junior Kindy"/>
+    <items x="0" y="679" width="762" height="26" text="Kindy"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="61" y="205" text="Babies" measuredWidth="98" measuredHeight="52">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:CoverFlow" id="3" x="456" y="256" measuredWidth="270" measuredHeight="125"/>
+  <widgets xsi:type="model:Label" id="4" x="557" y="307" text="Virtual Tour" measuredWidth="68" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="5" x="61" y="266" width="329" height="153" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="329" measuredHeight="153">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="6" x="56" y="441" width="725" height="337" text=",Monday,Tuesday, Wednesday ,Thursday, Friday&#xA;Week 1, ,,,(bg:lightGreen).Cooking Day,&#xA;Week 2, ,(bg:red).Public Holiday,&#xA;Week 3,&#xA;Week 4,,,(bg:purple).Zoo Day,,(bg:lightGreen).Dance Day&#xA;Week 5,&#xA;Week 6,(bg:red).Closing early 4pm,&#xA;" measuredWidth="725" measuredHeight="337" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="40" y="88" text="Rooms" measuredWidth="103" measuredHeight="52">
+    <font size="32px"/>
   </widgets>
   <hRuler/>
   <vRuler/>
