@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:Screen xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Accordion" id="1" x="40" y="80" width="673" height="625" text="Babies&#xA;Nursery&#xA;Junior Kindy&#xA;Kindy" measuredWidth="673" measuredHeight="625" selection="0">
+    <items x="0" y="2" width="673" height="26" text="Babies"/>
+    <items x="0" y="547" width="673" height="26" text="Nursery"/>
+    <items x="0" y="573" width="673" height="26" text="Junior Kindy"/>
+    <items x="0" y="599" width="673" height="26" text="Kindy"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="64" y="120" text="Babies" measuredWidth="98" measuredHeight="52">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:CoverFlow" id="3" x="408" y="192" measuredWidth="270" measuredHeight="125"/>
+  <widgets xsi:type="model:Label" id="4" x="509" y="243" text="Virtual Tour" measuredWidth="68" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="5" x="64" y="192" width="329" height="153" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="329" measuredHeight="153">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="6" x="61" y="368" width="617" height="233" text=",Monday,Tuesday, Wednesday ,Thursday, Friday&#xA;Week 1, ,,,(bg:lightGreen).Cooking Day,&#xA;Week 2, ,(bg:red).Public Holiday,&#xA;Week 3,&#xA;Week 4,,,(bg:purple).Zoo Day,,(bg:lightGreen).Dance Day&#xA;Week 5,&#xA;Week 6,(bg:red).Closing early 4pm,&#xA;" measuredWidth="617" measuredHeight="233" alternative="#eee">
+    <font/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
