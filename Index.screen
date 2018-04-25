@@ -58,7 +58,7 @@
         </object>
       </widgetChanges>
       <widgetChanges xsi:type="o:Insert" newIndex="4">
-        <object xsi:type="model:Label" id="50" x="202" y="1038" text="* Newsletter" link="Newsletter.screen">
+        <object xsi:type="model:Label" id="50" x="202" y="1038" text="* Newsletter">
           <font/>
         </object>
       </widgetChanges>
