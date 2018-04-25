@@ -81,6 +81,27 @@
     <font size="14px"/>
     <items link="For%20Parents%20&amp;%20Caregivers.screen" x="0" y="0" width="153" height="46" text="Parents / Carers {desc}"/>
   </widgets>
+  <widgets xsi:type="model:Accordion" id="30" x="40" y="160" width="762" height="705" text="The Grey Ward Free Kindergarden {circled-minus}&#xA;Grey Ward Nursey School {desc} &#xA;Grey Ward Children's Centre {desc}&#xA;Grey Ward Children's Centre Inc. {desc}&#xA;The Future {desc} " measuredWidth="762" measuredHeight="705" selection="0" verticalScrollbar="true">
+    <items x="0" y="2" width="762" height="26" text="The Grey Ward Free Kindergarden {circled-minus}"/>
+    <items x="0" y="601" width="762" height="26" text="Grey Ward Nursey School {desc} "/>
+    <items x="0" y="627" width="762" height="26" text="Grey Ward Children's Centre {desc}"/>
+    <items x="0" y="653" width="762" height="26" text="Grey Ward Children's Centre Inc. {desc}"/>
+    <items x="0" y="679" width="762" height="26" text="The Future {desc} "/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="31" x="61" y="205" text="Open 5th August 1908" measuredWidth="326" measuredHeight="53">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="34" x="61" y="257" width="424" height="200" text="The Grey Ward Free Kindergarten, as it was initially known, was opened on August 5th 1908, by the Kindergarten Union of South Australia (KUSA). The name Grey Ward is derived from its location in the council ward of Grey. The Grey Ward Free Kindergarten was originally located in the hall behind the Draper Memorial Church in Norman Street (between Gilbert and Sturt Streets) under the direction of Ellen Amy Burgess. It was established 2 years after the first free Kindergarten, known as the Franklin Street Free Kindergarten, which was located in a small cottage at 214 Franklin Street. The Free Kindergartens, including Grey Ward, were purposely located in run-down, inner-city, working-class areas, as KUSA believed that children of all social classes could benefit from early educational experiences; however they concentrated their attention on the poor with their motto 'Each for All, and All for Each'. KUSA strongly believed that this was where the need for action was most urgent." measuredWidth="424" measuredHeight="200">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="36" x="40" y="88" text="History of Grey Ward Childern's Centre" measuredWidth="555" measuredHeight="53">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="37" x="532" y="257" width="226" height="192" text="Photo of orginal Kindergarden" measuredWidth="226" measuredHeight="192"/>
+  <widgets xsi:type="model:Text" id="38" x="61" y="456" width="708" height="273" text="The emphasis therefore, in the Free Kindergartens, was on physical, educational and social curriculum, where each child received a daily intake of biscuits and milk and had regular medical inspections. Cases of malnutrition and dire need were specifically catered for by providing food and clothing. The Grey Ward Free Kindergarten catered for children aged 3-6 years for 5 mornings per week. The afternoons were purposefully allocated for teachers to undertake visits to the homes of enrolled and prospective students. These visits enabled the teachers to support families in matters relating to health, hygiene, nutrition and general child welfare.&#xD;&#xA;&#xD;&#xA;Before the doors of the Grey Ward Free Kindergarten were opened for the first time, there were 35 children waiting outside. By the second day it was full, with the quota being forty children. Over the next few days many others came and were disappointed when told that there was no room for them. Before too long the Kindergarten had a waiting list of 25 children. Children would come and wait asking 'Isn't there room yet, Sister?'.&#xD;&#xA;&#xD;&#xA;Friedrich Froebel's theories on children's play and learning, specifically the 'gifts' and 'occupations', dominated the curriculum of the Grey Ward Free Kindergarten and the other Free Kindergartens established by KUSA. Froebel's philosophy of 'gifts' were intended to give the child new universal aspects of the world, were suited to a child's development, led to discovery and gave insight. The 'gifts' included shape, number, extent, symmetry and proportion. The 'occupations' were the materials for practice in certain skills, such as plastic clay, wood-carving, weaving and paper folding, that were used to lead to invention and give the child power. In 1919, the Grey Ward Free Kindergarten's curriculum was reorganised along Montessori lines. It was purposefully the last Free Kindergarten to adopt the philosophy of Maria Montessori as it acted as a control site used for philosophy and practice comparisons for new college graduates." measuredWidth="708" measuredHeight="273">
+    <font/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
