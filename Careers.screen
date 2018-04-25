@@ -1,5 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:Screen xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Image" id="7" x="10" y="14" width="118" height="49" text="Logo" measuredWidth="118" measuredHeight="49"/>
+  <widgets xsi:type="model:HLine" id="8" x="14" y="890" width="832" measuredWidth="832" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="9" x="22" y="912" text="General" measuredWidth="50" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="211" y="912" text="For Parents / Caregivers" measuredWidth="139" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="438" y="912" text="Rooms" measuredWidth="44" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="665" y="912" text="Contact Us" measuredWidth="66" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="31" y="957" text="* Home" measuredWidth="47" measuredHeight="23" link="Index.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="31" y="984" text="* About us" measuredWidth="62" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="27" y="1011" text="* Careers" measuredWidth="53" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="206" y="957" text="* What you need to know" measuredWidth="140" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="206" y="984" text="* What's on" measuredWidth="67" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="202" y="1011" text="* Forms" measuredWidth="47" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="437" y="957" text="* Babies" measuredWidth="48" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="437" y="984" text="* Nursery" measuredWidth="55" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="433" y="1011" text="* Junior Kindy" measuredWidth="79" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="436" y="1038" text="* Kindy" measuredWidth="44" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="668" y="952" text="Phone: 08 8123 4567" measuredWidth="112" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="665" y="984" text="Email: test@gwcc.edu.au" measuredWidth="138" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="665" y="1011" text="Fax: 08 8123 4567" measuredWidth="95" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="665" y="1065" text="Adelaide SA 5000" measuredWidth="96" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="202" y="1038" text="* Newsletter" measuredWidth="70" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="28" x="881" y="17" height="1074" measuredWidth="17" measuredHeight="1074"/>
+  <widgets xsi:type="model:Panel" id="29" x="136" y="13" width="737" height="50" measuredWidth="737" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
+  <widgets xsi:type="model:ButtonBar" id="30" x="439" y="16" width="105" height="46" text="Rooms {desc}" measuredWidth="105" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
+    <font size="14px"/>
+    <items link="Rooms.screen" x="0" y="0" width="97" height="46" text="Rooms {desc}"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="31" x="145" y="16" width="99" height="46" text="GWCC" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
+    <font size="14px"/>
+    <items link="Newsletter.screen" x="0" y="0" width="73" height="46" text="GWCC"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="32" x="583" y="16" width="99" height="46" text="About Us" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
+    <font size="14px"/>
+    <items link="About%20Us.screen" x="0" y="0" width="92" height="46" text="About Us"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="33" x="716" y="16" width="99" height="46" text="Contact Us" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
+    <font size="14px"/>
+    <items link="Contact%20Us.screen" x="0" y="0" width="102" height="46" text="Contact Us"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="34" x="245" y="15" height="46" text="Parents / Carers {desc}" measuredWidth="153" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
+    <font size="14px"/>
+    <items x="0" y="0" width="153" height="46" text="Parents / Carers {desc}"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
