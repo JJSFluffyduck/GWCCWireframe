@@ -24,7 +24,7 @@
       <widgetChanges xsi:type="o:Insert" newIndex="6">
         <object xsi:type="model:ButtonBar" id="26" x="9" y="3" width="99" height="46" text="GWCC" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
           <font size="14px"/>
-          <items link="Newsletter.screen" text="GWCC"/>
+          <items link="Index.screen" text="GWCC"/>
         </object>
       </widgetChanges>
       <widgetChanges xsi:type="o:Insert" newIndex="6">

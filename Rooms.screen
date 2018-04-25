@@ -67,7 +67,7 @@
   </widgets>
   <widgets xsi:type="model:ButtonBar" id="26" x="145" y="14" width="99" height="46" text="GWCC" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
     <font size="14px"/>
-    <items link="Newsletter.screen" x="0" y="0" width="72" height="46" text="GWCC"/>
+    <items link="Index.screen" x="0" y="0" width="72" height="46" text="GWCC"/>
   </widgets>
   <widgets xsi:type="model:ButtonBar" id="27" x="583" y="14" width="99" height="46" text="About Us" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
     <font size="14px"/>
@@ -107,7 +107,6 @@
   <widgets xsi:type="model:Label" id="30" x="665" y="1038" width="262" text="Address: 253 Wright Street" measuredWidth="262" measuredHeight="24">
     <font/>
   </widgets>
-
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

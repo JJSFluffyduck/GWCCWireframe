@@ -67,7 +67,7 @@
   </widgets>
   <widgets xsi:type="model:ButtonBar" id="26" x="145" y="14" width="99" height="46" text="GWCC" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" skin="assets/Bootstrap/_pills.svg">
     <font size="14px"/>
-    <items link="Newsletter.screen" x="0" y="0" width="72" height="46" text="GWCC"/>
+    <items link="Index.screen" x="0" y="0" width="72" height="46" text="GWCC"/>
   </widgets>
   <widgets xsi:type="model:ButtonBar" id="27" x="583" y="14" width="99" height="46" text="About Us" measuredWidth="99" measuredHeight="46" layoutParams="anchor-left|anchor-middle" selection="0" background="#ccc" skin="assets/Bootstrap/_pills.svg">
     <font size="14px"/>
@@ -92,13 +92,13 @@
     <items x="0" y="679" width="762" height="26" text="The Future {desc} "/>
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="31" x="61" y="205" text="Open 5th August 1908" measuredWidth="326" measuredHeight="53">
+  <widgets xsi:type="model:Label" id="31" x="61" y="205" text="Open 5th August 1908" measuredWidth="327" measuredHeight="52">
     <font size="32px"/>
   </widgets>
   <widgets xsi:type="model:Text" id="34" x="61" y="257" width="424" height="200" text="The Grey Ward Free Kindergarten, as it was initially known, was opened on August 5th 1908, by the Kindergarten Union of South Australia (KUSA). The name Grey Ward is derived from its location in the council ward of Grey. The Grey Ward Free Kindergarten was originally located in the hall behind the Draper Memorial Church in Norman Street (between Gilbert and Sturt Streets) under the direction of Ellen Amy Burgess. It was established 2 years after the first free Kindergarten, known as the Franklin Street Free Kindergarten, which was located in a small cottage at 214 Franklin Street. The Free Kindergartens, including Grey Ward, were purposely located in run-down, inner-city, working-class areas, as KUSA believed that children of all social classes could benefit from early educational experiences; however they concentrated their attention on the poor with their motto 'Each for All, and All for Each'. KUSA strongly believed that this was where the need for action was most urgent." measuredWidth="424" measuredHeight="200">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="36" x="40" y="88" text="History of Grey Ward Childern's Centre" measuredWidth="555" measuredHeight="53">
+  <widgets xsi:type="model:Label" id="36" x="40" y="88" text="History of Grey Ward Childern's Centre" measuredWidth="554" measuredHeight="52">
     <font size="32px"/>
   </widgets>
   <widgets xsi:type="model:Image" id="37" x="514" y="248" width="226" height="192" text="Photo of orginal Kindergarden" measuredWidth="226" measuredHeight="192"/>

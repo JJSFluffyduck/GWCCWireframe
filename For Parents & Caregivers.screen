@@ -173,7 +173,7 @@
   <widgets xsi:type="model:Label" id="128" x="229" y="1078" text="* Newsletter" measuredWidth="72" measuredHeight="24" link="Newsletter.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="130" x="700" y="1040" width="262" text="Address: 253 Wright Street" measuredWidth="262" measuredHeight="24">
+  <widgets xsi:type="model:Label" id="130" x="692" y="1078" width="262" text="Address: 253 Wright Street" measuredWidth="262" measuredHeight="24">
     <font/>
   </widgets>
   <hRuler/>
