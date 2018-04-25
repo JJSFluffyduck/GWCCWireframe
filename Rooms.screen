@@ -104,6 +104,10 @@
   <widgets xsi:type="model:Label" id="30" x="40" y="88" text="Rooms" measuredWidth="103" measuredHeight="52">
     <font size="32px"/>
   </widgets>
+  <widgets xsi:type="model:Label" id="30" x="665" y="1038" width="262" text="Address: 253 Wright Street" measuredWidth="262" measuredHeight="24">
+    <font/>
+  </widgets>
+
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
